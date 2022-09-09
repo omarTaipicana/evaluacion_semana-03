@@ -1,0 +1,129 @@
+:root{
+  background-color: rgb(64, 62, 62);
+}
+* {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header-img{
+  width: 100%;
+}
+
+.info {
+  background-color: rgb(64, 62, 62);
+  text-align: center;
+  color: rgb(199, 196, 196);
+  padding: 0.1rem 0.5rem 0 0.5rem;
+  border: solid 0.1rem white ;
+}
+
+.list-info{
+  display: flex;
+  flex-direction: column;
+  margin: 0.5rem 0;
+}
+h1{
+  font-size: 23px;
+  margin-top: 0.5rem;
+}
+b{
+  color: rgb(176, 201, 109);
+}
+
+.divInfo {
+  display: flex;
+  justify-content: space-around;
+  font-size: 13px;
+}
+.search{
+  width: 80%;
+  margin: 1rem auto;
+  border: solid 0.1rem white ;
+}
+input::-webkit-input-placeholder{
+  text-align: center;
+}
+input{
+  width: 80%;
+}
+button{
+  width: 20%;
+  background-color: rgb(5, 149, 128);
+  color: rgb(33, 33, 2);
+  font-weight: 900;
+}
+h2{
+  color:  rgb(199, 196, 196);  
+  margin-bottom: 0.5rem;
+}
+
+.card-img{
+  width: 35%;
+  margin: 0.2rem 1rem;
+}
+
+.content-card{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+.card{
+  display: flex;
+  width: 100%;
+  box-shadow:0.2rem 0.2rem 0.5rem 0.3rem rgb(199, 196, 196);
+  margin: 1rem;
+}
+h3{
+  color:  rgb(199, 196, 196);  
+  margin-bottom: 0.5rem;
+}
+h4{
+  color:  rgb(176, 201, 109);  
+  margin-bottom: 0.5rem;
+  font-size: 14px;
+}
+.info-resident{
+  color: rgb(169, 165, 165);
+}
+
+@media screen and (min-width: 768px) {
+  h1{
+    font-size: 50px;
+  }
+  .info{
+    width: 80%;
+    margin: 1rem auto;
+  }
+  .divInfo{
+    font-size: 20px;
+  }
+  input{
+    font-size: 18px;
+  }
+  button{
+    font-size: 18px;
+  }
+  h2{
+    margin-left: 15%;
+  }
+  .search{
+    width: 40%;
+  }
+  .content-card{
+    width: 70%;
+    margin: 0 auto;
+    justify-content: space-around;
+  }
+  .card{
+    width: 40%;
+  }
+
+}
+@media screen and (min-width: 520px) {
+  .card{
+    width: 40%;
+  }
+}
