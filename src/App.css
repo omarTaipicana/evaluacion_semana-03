@@ -76,6 +76,10 @@ h2{
   box-shadow:0.2rem 0.2rem 0.5rem 0.3rem rgb(199, 196, 196);
   margin: 1rem;
 }
+.fa-circle{
+  font-size: 50%;
+  vertical-align: auto;
+}
 h3{
   color:  rgb(199, 196, 196);  
   margin-bottom: 0.5rem;
